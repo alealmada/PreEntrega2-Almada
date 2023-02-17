@@ -10,9 +10,6 @@ body{
 
 h6{
     color:white;
-    
-    
-    
 }
 a{
     text-decoration: none;
@@ -283,3 +280,14 @@ footer{
 .footer__div li a:hover{
     border-bottom: solid 1px white;
 }
+/* Media queris*/
+@media (max-width: 992px){
+    .nav{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+    }
+
+}
+@media () 
