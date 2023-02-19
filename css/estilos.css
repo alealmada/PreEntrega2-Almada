@@ -18,6 +18,8 @@ a{
 /*nav de bootstrap*/
 .navbar{ 
     display: none;
+    
+    
 }
 .nav-link :hover{
     border-bottom: 1px solid #000000;
@@ -25,7 +27,6 @@ a{
 /*header-nav*/
 
 header{ 
-    height: 90px;
     width: 100%;
     background-color: white;
     position: sticky;
