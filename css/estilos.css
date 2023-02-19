@@ -229,6 +229,17 @@ option{
     width: 600px;
     height: 400px;
 }
+.img-sobre-nosotros{
+    width: 650px;
+   
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 /*Estilos a contactos*/
 #sectionContacto{
 display: flex;
