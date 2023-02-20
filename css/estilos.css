@@ -18,7 +18,7 @@ a{
 /*nav de bootstrap*/
 .navbar{ 
     display: none;
-    
+    background-color: white;
     
 }
 .nav-link :hover{
@@ -86,6 +86,7 @@ li a:hover{
 #promociones{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     height: 300px;
 }
 .promociones__h2 {
@@ -188,13 +189,14 @@ option{
 .productosDestacados__tarjeta {
     margin: 30px;
     padding: 5px;
-    height: 300px;
+    height: 350px;
     width: 200px;
     border: #000000 1px solid;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .productosDestacados__tarjeta img{
     height: 200px;
