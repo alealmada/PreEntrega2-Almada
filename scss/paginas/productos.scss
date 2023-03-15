@@ -1,0 +1,56 @@
+.encabezado{
+    height: 100px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+   align-items: center;
+   .encabezado-titulo_h2{
+    padding: 10px;
+ }
+}
+select{
+    margin-left: 10px;
+    option{
+        color: white;
+        background-color: #000000;
+    }
+}
+#productosDestacados{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    justify-content: space-between; 
+    .productosDestacados__tarjeta {
+        margin: 30px;
+        padding: 5px;
+        height: 350px;
+        width: 200px;
+        border: #000000 1px solid;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+            background-color: #000000;
+            color: white;
+        }
+    }
+    img{
+        height: 200px;
+        width: 150px;
+        margin: 5px;
+        border-radius: 5%;
+    }
+    a {
+        margin: 20px;
+        color: #000000;
+        a &:hover{
+            color: white;
+        }
+    }
+    a p{
+        margin-left: 20px;
+    }
+}

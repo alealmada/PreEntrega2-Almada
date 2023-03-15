@@ -1,0 +1,39 @@
+#grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas: 
+    "banner banner banner banner " 
+    
+    "imagen imagen informacion informacion"
+    "imagen imagen informacion informacion" 
+;
+    justify-items: center;
+}
+.main__banner-compra{
+    background-image: url(../imagenes/banner_compras.jpg);
+     width: 100%;
+     background-size: 100% 100%;
+     grid-area: banner;
+     .pagina-compra{
+    
+        margin: 30px;
+        padding: 20px;
+        border-left: solid 2px black;
+        grid-area: informacion;
+        }
+        .imagen-compra {
+            margin-left: 40px;
+            margin-top: 40px;
+            height: 500px;
+            width: 400px;
+            grid-area: imagen;
+        }
+        .boton{
+   
+            color: white;
+            background-color: #000000;
+            border-radius: 5px;
+           
+        }
+ }

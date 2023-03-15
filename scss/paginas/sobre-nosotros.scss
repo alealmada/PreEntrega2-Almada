@@ -1,0 +1,23 @@
+.encabezado_sobre-nosotros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    img{
+        margin: 20px;
+        width: 600px;
+        height: 400px;
+    }
+}
+.img-sobre-nosotros{
+    width: 650px;
+   
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
