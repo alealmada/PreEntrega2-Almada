@@ -1,40 +1,22 @@
 header{ 
-    width: 100%;
-    background-color: white;
     position: sticky;
-    top: 0px;
-    .nav{
-        height: 100px;
+         top: 0;
+    .navbar{ 
+        background-color: white;
+        margin-bottom: 5px;
+        height: 80px;
         width: 100%;
-        position: sticky;
-        top: 0px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap; 
-        justify-content: space-between;
+        
+         
+        
         .logo{
             height: 80px;
             width: 80px;
            margin: 10px;
         }
-    .lista{
-        list-style-type: none; 
-        display: inline-block;
-        float: right;
-        margin: 10px;
-            li{
-                display: inline-block;
-                margin-right: 10px;
-                font-size: 18px;
-                &:hover{
-                    border-bottom: 1px solid #000000;
-                }
-                 a{
-                    text-decoration: none; 
-                    color: #000000;
-                    }
-                    
-             }
+     }
+    .nav-link &:hover{
+        border-bottom: 1px solid #000000;
     }
-    } 
-} 
+}
+

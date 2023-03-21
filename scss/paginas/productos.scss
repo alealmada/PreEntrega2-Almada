@@ -29,28 +29,46 @@ select{
         border: #000000 1px solid;
         border-radius: 8px;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
         align-items: center;
+        overflow: hidden;
+        transition: transform 0.3s ease-out;
+        &:hover {
+            transform: scale(1.1);
+         }
         &:hover{
             background-color: #000000;
             color: white;
         }
+
     }
     img{
         height: 200px;
         width: 150px;
         margin: 5px;
         border-radius: 5%;
+        
     }
-    a {
+    a  {
         margin: 20px;
         color: #000000;
-        a &:hover{
-            color: white;
+         &:hover{
+            color: white; 
+            
         }
     }
     a p{
         margin-left: 20px;
+        &:hover{
+            color: white;
+    }
+}
+    a h3{
+        &:hover{
+            color: white;
+    }
+
     }
 }

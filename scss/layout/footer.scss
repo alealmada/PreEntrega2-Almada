@@ -1,6 +1,14 @@
 footer{
     background-color:#000000;
     
+
+    h6{
+        font-size: 14px;
+        
+        
+        
+    }
+    
 }
 .footer__div{
     background-color: #000000;
@@ -8,8 +16,11 @@ footer{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: start;
-
+    justify-content: center;
+    ul {
+        list-style-type: none;
+        display: inline-flex;
+    }
     
      a{
         color: white;
