@@ -1,39 +1,41 @@
-#grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 200px);
-    grid-template-areas: 
-    "banner banner banner banner " 
-    
-    "imagen imagen informacion informacion"
-    "imagen imagen informacion informacion" 
+#main__comprar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
 ;
-    justify-items: center;
+   
 }
 .main__banner-compra{
-    background-image: url(../imagenes/banner_compras.jpg);
-     width: 100%;
+     background-image: url(../imagenes/banner_compras.jpg);
+     height: 200px;
      background-size: 100% 100%;
-     grid-area: banner;
+     display: flex;
+     flex-direction: row-reverse;
+     flex-wrap: nowrap;
+     align-items: center;
+     .banner-compra__h2{
+        text-align: right;
+        letter-spacing: 10px;
+        font-size: 50px;
+        color: white;
+     }}
+
      .pagina-compra{
     
-        margin: 30px;
-        padding: 20px;
-        border-left: solid 2px black;
-        grid-area: informacion;
+        margin: 10px;
+        padding: 10px;
+        border-right: solid 2px black;
+       
         }
+     
         .imagen-compra {
-            margin-left: 40px;
-            margin-top: 40px;
-            height: 500px;
-            width: 400px;
-            grid-area: imagen;
+            margin: 15px;
+            height: 400px;
+            width: 300px;
+            border-radius: 8%;
+        
         }
-        .boton{
-   
-            color: white;
-            background-color: #000000;
-            border-radius: 5px;
-           
-        }
- }
+        
+ 
