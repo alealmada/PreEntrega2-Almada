@@ -56,7 +56,6 @@ li {
   list-style: none; }
 
 header .navbar {
-  background-color: white;
   margin-bottom: 5px; }
   header .navbar .logo {
     height: 80px;
@@ -69,7 +68,8 @@ header .navbar {
 footer {
   background-color: #000000; }
   footer h6 {
-    font-size: 14px; }
+    font-size: 14px;
+    margin-bottom: 0; }
 
 .footer__div {
   background-color: #000000;
